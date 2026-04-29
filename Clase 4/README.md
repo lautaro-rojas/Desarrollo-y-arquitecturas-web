@@ -23,11 +23,14 @@ Lo importante es que debe tener la siguiete estructura y tener el archivo que se
 1. Levantar el proyecto
 2. Ejecutar el proyecto
 
-   Nota: El error del roslyn se soluciona ejecutando el siguente comando en la "Consola del administrador de paquetes":
+   > [!NOTE]
+   > El error del roslyn se soluciona ejecutando el siguente comando en la "Consola del administrador de paquetes":
+   > 
+   > ```Bash
+   >    Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r
+   > ``` 
 
-   ```Bash
-   Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r
-   ```
+
 
 3. Crear un formulario web aspx que se llame `Respuesta.aspx`.
 
@@ -52,7 +55,7 @@ Lo importante es que debe tener la siguiete estructura y tener el archivo que se
 
 ## Controles de verificación
 
-Los controles de verificación se suelen colocar al lado de la herramienta que quiero controlar. Estos se encuentran en el "Caudro de herramientas", el mismo lugar donde buscamos los `Button`, `TextBox`, `Label`...
+Los controles de verificación se suelen colocar al lado de la herramienta que quiero controlar. Estos se encuentran en el "Cuadro de herramientas", el mismo lugar donde buscamos los `Button`, `TextBox`, `Label`...
 
 ### RequiredFieldValidator
 
