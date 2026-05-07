@@ -8,7 +8,7 @@ Cálculo de un presupuesto de viajes.
 
 Control: Días que no sea mayor a 15 y que estes obligado a ponerlo.
 
-[Ir al código]()
+[Ir al código](https://github.com/lautaro-rojas/Desarrollo-y-arquitecturas-web/tree/main/Clase%205/EjercicioClase5)
 
 ## Preguntas que pueden estar en el parcial
 
