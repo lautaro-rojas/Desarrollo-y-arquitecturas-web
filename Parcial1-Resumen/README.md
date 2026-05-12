@@ -55,9 +55,13 @@ El servidor en respuesta, envía el objeto response. Este podemos ver que tiene 
 
 ![Modelo ASP](../images/ModeloASP.png)
 
+## Qué es el Global.asax
+
+Es un archivo de configuración donde se declaran variables de sesión y de aplicación independientes de cualquier pagina.
+
 ## Los eventos OnStart OnEnd, a qué están relacionados?
 
-Al archivo de configuración `Global.asax`
+Al archivo de configuración `Global.asax`.
 
 ## Qué 3 archivos de configuración son fundamentales?
 
@@ -253,3 +257,11 @@ Server.CreateObject. Es el objeto que me permite crear una instancia de un compo
 Desde ASP se llama a un script presente dentro del código para esto se utiliza: `onclick=”javascript:validar()”`.
 
 En cambio para llamar a un script externo(archivo.js) se debe llamar a la fuente `<script type=”text/javascript” src=”script.js”></script>`.
+
+## Explique todo acerca de la palabra reservada #PCDATA
+
+Son datos de caracteres analizados sintácticamente. Los elementos también pueden contener datos de caracteres no analizados(#CDATA) o simplemente, elementos secundarios.
+
+## Explique todo acerca de la palabra reservada #CDATA
+
+Es una sección de datos que contiene información que no se quiere analizar sintácticamente, como datos de caracteres XML. 
