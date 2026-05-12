@@ -264,4 +264,4 @@ Son datos de caracteres analizados sintácticamente. Los elementos también pued
 
 ## Explique todo acerca de la palabra reservada #CDATA
 
-Es una sección de datos que contiene información que no se quiere analizar sintácticamente, como datos de caracteres XML. 
+Es una sección de datos que contiene información que no se quiere analizar sintácticamente, como datos de caracteres XML.
