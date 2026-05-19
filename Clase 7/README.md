@@ -57,6 +57,38 @@ El profe nos manda las diapos q vimos en la clase
 - 22: no
 - 23: no
 
-## Ejercicio que entra en el 2do parcial (JavaScript)
+## Ejercicio 1 del TP2
 
-Nos dio una fotocopia.
+Entra en el 2do parcial
+
+[Ir al código](https://github.com/lautaro-rojas/Desarrollo-y-arquitecturas-web/blob/main/Clase%207/EjercicioClase7/index.html)
+
+![EjercicioClase7](../images/EjercicioClase7.png)
+
+```HTML
+<html>
+<h1>Ejercicio clase 7 + JS</h1>
+<head>
+<script lang="Javascript">
+    var nro = Math.ceil(Math.random() * 10);
+    var Msje = "Ingrese eun nro entre 1 y 10";
+    var intentos = 1;
+    var aciertos;
+    do {
+        aciertos = prompt(Msje, "");
+        if (aciertos == null) {
+            break;
+        } else if (aciertos == nro) {
+            alert("Felicitaciones, adivinaste el nro " + nro + " en " + intentos + " intentos");
+        } else if (aciertos < nro) {
+            Msje = "El nro es mayor, intente nuevamente";
+        } else {
+            Msje = "El nro es menor, intente nuevamente";
+        }
+        intentos++;
+    } while (true);
+    </script>
+</head>
+
+</html>  
+```
