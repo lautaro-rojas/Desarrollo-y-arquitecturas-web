@@ -92,3 +92,9 @@ Entra en el 2do parcial
 
 </html>  
 ```
+
+## Ejercicio 2 del TP2
+
+![EjercicioClase721](../images/EjercicioClase721.jpeg)
+
+![EjercicioClase722](../images/EjercicioClase722.jpeg)
