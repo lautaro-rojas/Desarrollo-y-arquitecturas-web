@@ -18,6 +18,7 @@ Entrega -> 4 clases antes de la ultima
 ## TP nro 2
 
 Se necesita mandar al servidor los días seleccionados para distintas actividades. Tanto por sesión como por cookies. (no usé cookies)
+(Lo hice en la clase 7)
 
 ## TP nro 3
 
