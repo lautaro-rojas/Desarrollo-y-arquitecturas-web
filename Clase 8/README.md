@@ -48,3 +48,7 @@ Se tiene que trabajar por sesión y por Cookies. Incluye DropDownList con cookie
 ## Machete de Cookies
 
 ![Machete de cookies](../images/Machete%20de%20cookies.jpeg)
+
+En este documento está el recorrido de la colexión de cookies
+
+23 de junio TP 2,3,4
