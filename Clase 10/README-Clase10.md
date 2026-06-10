@@ -13,3 +13,13 @@ como son la relaciob entre ias pas y otra mas q no recuerdo
 # Tp 5
 
 ![TP5](../images/TP5.jpeg)
+
+# Modelo de objetos de XML .NET
+
+![Modelo de objetos XML](../images/ModeloDeObjXML.jpeg)
+
+Hcer el ejercicio A
+
+![Ejercicio](../images/EjercicioXML1.jpeg)
+
+Para la clase q viene queda como armar un archivo xml con código
