@@ -27,6 +27,8 @@ Dado los 2 catetos caular permimtro area e hipotenusa de un triangulo.
 
 ## TP nro 4
 
+Lo mandaron los chicos al WhatsApp
+
 Nos dio una fotocopia
 ![TP4-1](../images/TP4-1.jpeg)
 ![TP4-2](../images/TP4-2.jpeg)
