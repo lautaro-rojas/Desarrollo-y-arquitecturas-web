@@ -35,7 +35,18 @@ Las 3 V de Big Data:
 
 ## 12
 CUALES SON LAS FUENTES DE DATOS MAS VOLUMINOSAS?
-Datos de la WebDatos de los medios socialesDatos de Internet de las Cosas.Datos de interconexión entre maquinas, M2M(machine to machine)Datos industriales de organizaciones y empresas (de múltiples sectores)Datos de la industria del automóvilDatos de redes de telecomunicacionesDatos de medios de comunicación (prensa, radio, televisión, cine...)Datos procedentes de sensores en los mas diferentes campos de la industria y de la agricultura.Datos de videojuegos, casinos..etcDatos de telemetría y geolocalizaciónDatos procedentes de chips NFC, RFID, códigos QR Bidi, en aplicaciones decomercio electrónico.Datos procedentes de servicios de telefonía móvil(celulares) inteligente: texto, datos, audio, video, fotografía.Datos procedentes de redes inteligentes smartgrids.Datos personales, datos de texto.11/11/2018
+
+- Datos de la Web
+- Datos de los medios sociales
+- Datos de Internet de las Cosas.
+- Datos de interconexión entre maquinas, M2M(machine to machine)
+- Datos industriales de organizaciones y empresas (de múltiples sectores)
+- Datos de la industria del automóvilDatos de redes de telecomunicacionesDatos de medios de comunicación (prensa, radio, televisión, cine...)
+- Datos procedentes de sensores en los mas diferentes campos de la industria y de la agricultura.
+- Datos de videojuegos, casinos..etcDatos de telemetría y geolocalizaciónDatos procedentes de chips NFC, RFID, códigos QR Bidi, en aplicaciones decomercio electrónico.
+- Datos procedentes de servicios de telefonía móvil(celulares) inteligente: texto, datos, audio, video, fotografía.
+- Datos procedentes de redes inteligentes smartgrids.
+- Datos personales, datos de texto.
 
 ## 13 
 ![Tipos de Big Data](../images/TiposDeBigData.png)
