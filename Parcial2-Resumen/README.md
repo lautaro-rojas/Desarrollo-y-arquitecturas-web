@@ -2,10 +2,11 @@
 Soporte multimedia nativo con el uso de tags. Ampliación de la estructura base interpretable con etiquetas adicionales como article, nav, footer que antes eran divs con id.
 
 # APIs de HTML 5 -> 
-son interfaces pre-armadas de Javascript que el desarrollador puede hacer uso para obtener funciones estándar como Geolocation, webstorage, canvas
-	Geolocation -> El modelo se compone de objetos como coordinates, position, positionError, positionOptions. Métodos como clearWatch() para deshacer watchPosition() que mantiene handlers de la posición del objeto y getCurrentPosition()
-	Canvas -> Permite dibujar elementos en la pantalla e interactuar rotando, transformando, manipulando de alguna manera los elementos. beginPath() moveTo() lineTo() stroke() para hacer el "commit" de la figura
-	Webstorage -> permite acceso a almacenamiento de sesión o local. clear(), setItem(), getItem()
+Son interfaces pre-armadas de Javascript que el desarrollador puede hacer uso para obtener funciones estándar como Geolocation, webstorage, canvas
+
+- Geolocation -> El modelo se compone de objetos como coordinates, position, positionError, positionOptions. Métodos como clearWatch() para deshacer watchPosition() que mantiene handlers de la posición del objeto y getCurrentPosition()
+- Canvas -> Permite dibujar elementos en la pantalla e interactuar rotando, transformando, manipulando de alguna manera los elementos. beginPath() moveTo() lineTo() stroke() para hacer el "commit" de la figura
+- Webstorage -> permite acceso a almacenamiento de sesión o local. clear(), setItem(), getItem()
 
 # Preguntas criptografía y seguridad
 
@@ -114,11 +115,8 @@ Se clasifican en cinco grandes categorías según su procedencia:
 ## 10. Cloud Computing (IaaS, PaaS, SaaS) y Perfiles de Usuario
 El modelo se define como un sistema de **pago por uso** con acceso bajo demanda a recursos configurables. Según el nivel de control técnico que describe el texto, se identifican los siguientes perfiles:
 - **SaaS (Software como Servicio):** El proveedor da aplicaciones listas que corren en la nube y se acceden por navegador (ej. Gmail). El usuario no tiene ningún control sobre la infraestructura ni la aplicación.
-    - _Perfil de usuario:_ **Usuario final / Consumidor general**.
 - **PaaS (Plataforma como Servicio):** Permite al usuario desplegar aplicaciones propias desarrolladas por él usando las herramientas y lenguajes del proveedor. No administra redes ni servidores, pero tiene el control total de sus aplicaciones alojadas.
-    - _Perfil de usuario:_ **Desarrollador de software / Programador**.
 - **IaaS (Infraestructura como Servicio):** El proveedor ofrece almacenamiento, procesamiento y redes raw. El usuario no controla la infraestructura física fundamental, pero tiene control total sobre los sistemas operativos, el almacenamiento y las aplicaciones desplegadas.
-    - _Perfil de usuario:_ **Administrador de Sistemas / Arquitecto de TI**.
 
 ## 11. Modelos de Despliegue de la Nube
 El documento señala que según el NIST existen cuatro modelos, detallando textualmente los siguientes:
@@ -170,3 +168,53 @@ Diseñado específicamente para buscar datos sin recorrer el árbol a mano y par
 - **`XPathDocument`:** Es una caché en memoria de **solo lectura**. Está ultra optimizada para que las consultas XPath sean un rayo.
 - **`XPathNavigator`:** Es el cursor que se mueve por el `XPathDocument` (o `XmlDocument`) para ejecutar las búsquedas mediante el método `.Select()`.
 - **`XslTransform`:** Agarra el XML, le aplica una plantilla de diseño (XSLT) y te escupe un archivo transformado que puede ser un **HTML, un texto plano o un nuevo XML**.
+
+# Scrum
+Puede entrar en el parcial:
+- Explicar el grafico de burndown
+- Roles
+- Ciclo de sprint
+- Planning poker
+
+## Ciclo del sprint
+El ciclo del sprint está compuesto por varias reuniones donde intervienen todos los del equipo:
+- Sprint planning: Se deice que vamos a hacer y como. El numero de historias de usuario a realizar.
+- Scrum diario o daily: Pequeñas reuniones donde se dice el estado de la historia de usuario. 
+- Revisión del sprint: Se muestra lo trabajado durante el sprint a los clientes o interesados para recibir feedback y validar lo que se construyó.
+- Retrospectiva del sprint: Se ve como trabajo el equipo y que se puede mejorar.
+
+![Scrum1](../images/scrum1.jpeg)
+
+## Roles
+Los principales roles del scrum son:
+1. Product owner: Persona que está en contacto directo con el cliente y es interlocutor con todos los stakeholders. También debe mantener el backlog detallado.
+2. Scrum master: Es el responsable de que la metodolgía sea comprendida y aplicada en la mesa y facilitador en las reuniones
+3. Equipo de desarrollo: Equipo encargado de realizar las tareas, debe ser autoorganizado y tienen responsabilidad compartida de terminar el trabajo
+4. Stakeholders: Personas que no tienen un rol formal pero que su opinion debe ser tomada en cuenta, expertos, asesores.
+
+![Scrum2](../images/scrum2.jpeg)
+
+## Grafico
+Sirve para mostrar claramente cuánto trabajo falta por hacer frente al tiempo que queda para terminar el sprint
+
+### Sus componentes principales
+- Eje Vertical (Y): Representa el trabajo pendiente. Por lo general, se mide en Story Points (Puntos de historia) o en horas de trabajo.
+- Eje Horizontal (X): Representa el tiempo. En el caso de un sprint, son los días de duración del mismo (por ejemplo, del día 1 al día 14).
+- La Línea Ideal (o planificada): Es una línea recta en diagonal que empieza en la parte más alta (el total de trabajo comprometido en la Sprint Planning) y termina en cero el último día del sprint. Es el "ritmo perfecto" al que el equipo debería avanzar.
+- La Línea Real: Es la línea que el equipo va actualizando día a día, generalmente durante la Daily Scrum. Refleja el trabajo que realmente queda por completar.
+
+![Scrum3](../images/scrum3.jpeg)
+
+## Planning poker
+El Planning Poker es una técnica de estimación para calcular el esfuerzo, la complejidad o el tamaño de las historias de usuario a forma de juego.
+
+Por lo general, esta dinámica se realiza durante la reunión de Sprint Planning o en sesiones previas de refinamiento del Backlog.
+
+### ¿Por qué es tan útil?
+Evita el "efecto ancla": Al votar en secreto y revelar al mismo tiempo, se evita que la opinión de la primera persona en hablar (o la del miembro con más experiencia) influya en lo que piensan los demás.
+
+Fomenta la comunicación: Obliga al equipo a hablar sobre cómo van a resolver el problema, sacando a la luz dudas técnicas antes de empezar a programar.
+
+Hace partícipe a todo el equipo: Todos los miembros tienen voz y voto en el proceso de planificación.
+
+![Scrum4](../images/scrum4.jpeg)
