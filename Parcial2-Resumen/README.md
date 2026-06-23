@@ -1,7 +1,7 @@
-# HTML 5 vs 4 -> 
+# HTML 5 vs 4
 Soporte multimedia nativo con el uso de tags. Ampliación de la estructura base interpretable con etiquetas adicionales como article, nav, footer que antes eran divs con id.
 
-# APIs de HTML 5 -> 
+# APIs de HTML 5
 Son interfaces pre-armadas de Javascript que el desarrollador puede hacer uso para obtener funciones estándar como Geolocation, webstorage, canvas
 
 - Geolocation -> El modelo se compone de objetos como coordinates, position, positionError, positionOptions. Métodos como clearWatch() para deshacer watchPosition() que mantiene handlers de la posición del objeto y getCurrentPosition()
